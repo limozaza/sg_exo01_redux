@@ -34,7 +34,7 @@ class BookList extends Component{
 function mapStateToProps(state){
 return {
         books: state.books,
-        
+        activeBook: state.activeBook
     }
 }
 //Si action declencher resultat se met dans le props
