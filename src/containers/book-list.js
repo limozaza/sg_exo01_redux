@@ -33,7 +33,8 @@ class BookList extends Component{
 //Retourne le state redux en props dans le container
 function mapStateToProps(state){
 return {
-        books: state.books
+        books: state.books,
+        
     }
 }
 //Si action declencher resultat se met dans le props
