@@ -1,3 +1,8 @@
+
+
 export const selectBook = (book) => {
-    console.log("A book has selected :",book.title);
+    return {
+        type: 'BOOK_SELECTED',
+        payload: book
+    };
 };
